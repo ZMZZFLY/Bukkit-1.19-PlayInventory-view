@@ -1,0 +1,6 @@
+name: PlayerInventory
+version: 1.0.0
+main: plus.zmzz.playerinventory.InventoryDisplayPlugin
+author: ZMZZ
+description: PlayerInventory
+api-version: 1.19

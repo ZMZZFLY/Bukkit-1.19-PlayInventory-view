@@ -1,0 +1,4 @@
+[00:16:48] [ServerMain/INFO]: Building unoptimized datafixer
+[00:16:48] [ServerMain/ERROR]: Failed to load properties from file: server.properties
+[00:16:49] [ServerMain/WARN]: Failed to load eula.txt
+[00:16:49] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
