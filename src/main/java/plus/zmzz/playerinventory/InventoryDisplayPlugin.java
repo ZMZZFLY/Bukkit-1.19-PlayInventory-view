@@ -97,13 +97,14 @@ public class InventoryDisplayPlugin extends JavaPlugin {
         playerPanel = new JPanel();
         playerPanel.setLayout(new BoxLayout(playerPanel, BoxLayout.Y_AXIS));
         JScrollPane scrollPane = new JScrollPane(playerPanel);
-        scrollPane.setPreferredSize(new Dimension(400, 300));
+        scrollPane.setPreferredSize(new Dimension(600, 500));
         box.add(scrollPane);
 
         frame.getContentPane().add(box);
         frame.setResizable(false);
         frame.pack();
         frame.setLocationRelativeTo(null);
+        frame.setExtendedState(Frame.MAXIMIZED_BOTH);
         frame.setVisible(true);
     }
 
@@ -144,7 +145,9 @@ public class InventoryDisplayPlugin extends JavaPlugin {
             JPanel inventoryPanel = createInventoryPanel(playerItems.get(playerName));
             inventoryFrame.getContentPane().removeAll();
             inventoryFrame.getContentPane().add(inventoryPanel);
+            inventoryFrame.setBounds(0,0,600,500);
             inventoryFrame.pack();
+            inventoryFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
             inventoryFrame.setVisible(false);
         } else {
             inventoryFrame = new JFrame(playerName + "的背包");
@@ -186,8 +189,8 @@ public class InventoryDisplayPlugin extends JavaPlugin {
             emptyLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
             inventoryPanel.add(emptyLabel);
         }
-        inventoryPanel.setPreferredSize(new Dimension(360, 60));
-        inventoryPanel.setMaximumSize(new Dimension(360, 60));
+        inventoryPanel.setPreferredSize(new Dimension(600, 500));
+        inventoryPanel.setMaximumSize(new Dimension(600, 500));
         return inventoryPanel;
     }
 
