@@ -9,4 +9,4 @@ Way to jar: Jar it Directly
 
 作者: <a href="http://syzygy.top">Lacrus工作室</a> ZMZZFLY(ZephyrZeno)
 Author: <a href="http://syzygy.top">LacrusStudio</a> ZMZZFLY(ZephyrZeno)
-*LacrusStudio*
+LacrusStudio
