@@ -1,11 +1,7 @@
-<link rel="stylesheet" href="http://syzygy.top/css/background.css">
-<div>
-  <div id="bg1" class="bgbox"></div>
-  <div id="bg2" class="bgbox"></div>
-</div>
+<link rel="stylesheet" href="http://syzygy.top/css/time.css>
 <center><h1>玩家背包查看</h1></center>
 
-插件版本: 1.19 Bukkit 
+<time>插件版本: 1.19 Bukkit </time>
 
 构建方法: 直接Jar它
 
@@ -20,4 +16,3 @@ Way to jar it: Jar it Directly
 Author: <a href="http://syzygy.top">LacrusStudio</a> ZMZZFLY(ZephyrZeno)
 <hr>
 LacrusStudio
-
