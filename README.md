@@ -13,5 +13,5 @@ Plugin Version: Bukkit 1.19
 Way to jar: Jar it Directly
 
 Author: <a href="http://syzygy.top">LacrusStudio</a> ZMZZFLY(ZephyrZeno)
-
+<hr>
 LacrusStudio
