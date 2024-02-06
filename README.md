@@ -6,8 +6,6 @@
 
 作者: <a href="http://syzygy.top">Lacrus工作室</a> ZMZZFLY(ZephyrZeno)
 
-LacrusStudio
-
 <center><h1>PlayerInventoryDisplay Plugin</h1></center>
 
 Plugin Version: Bukkit 1.19
@@ -15,3 +13,5 @@ Plugin Version: Bukkit 1.19
 Way to jar: Jar it Directly
 
 Author: <a href="http://syzygy.top">LacrusStudio</a> ZMZZFLY(ZephyrZeno)
+
+LacrusStudio
